@@ -14,7 +14,7 @@ body{
     background-color: var(--primarycolor);
 }
 
-header nav{
+header nav {
     background-color: var(--secondarycolor);
     font-family: "corsario-variable", sans-serif; 
     font-variation-settings: "opsz" 48, "wght" 600;
@@ -23,9 +23,34 @@ header nav{
     
 }
 
+header nav a{ 
+    text-decoration: none;
+    color: var(--primarycolor);
+}
+
 header nav img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     margin: 20px 20px;
 }
+
+header nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap:25px;
+    margin-top: 30px;
+      
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header a:hover{
+    border-bottom: 2px solid var(--primarycolor);
+}
+
