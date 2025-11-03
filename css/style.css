@@ -1,4 +1,15 @@
+:root{
+    --primarycolor:#FCEFDE;
+    --secondarycolor:#014B53;
+    --tertiarycolor:#D4F5C4;
+    --comments:#827F7F;
+}
+
 *{
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: var(--primarycolor);
 }
