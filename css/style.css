@@ -28,12 +28,24 @@ header nav a{
     color: var(--primarycolor);
 }
 
+.logocontainer{
+    display: flex;
+   
+  
+    
+  
+}
+
 header nav img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin: 20px 20px;
+    margin: 20px 30px;
+    
+    
+ 
 }
+
 
 header nav ul {
     text-decoration: none;
@@ -44,7 +56,6 @@ header nav ul {
       
 }
 
-
 header nav{
     display: flex;
     justify-content: space-between;
@@ -54,3 +65,41 @@ header a:hover{
     border-bottom: 2px solid var(--primarycolor);
 }
 
+.hambr-container{
+    display: flex;
+    gap:12px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+
+
+/* .styl-cmd{
+    background-color: var(--secondarycolor);
+    color: var(--primarycolor);
+    font-size: 18pt;
+    font-family: "corsario-variable", sans-serif; 
+    font-variation-settings: "opsz" 48, "wght" 600;
+    text-align: center;
+    border: 0px;
+    width:120px;
+} */
+
+
+
+
+/* .option-styl{
+    color: var(--secondarycolor);
+    background-color: var(--primarycolor);
+    font-family: "corsario-variable", sans-serif; 
+    font-variation-settings: "opsz" 48, "wght" 600;
+    font-size: 18pt;
+
+    
+} */
+@media screen and (max-width: 1000px){
+    header nav ul {
+        display: none;
+    }
+    
+}
