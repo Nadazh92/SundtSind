@@ -14,6 +14,8 @@ body{
     background-color: var(--primarycolor);
 }
 
+/* header style */
+
 header nav {
     background-color: var(--secondarycolor);
     font-family: "corsario-variable", sans-serif; 
@@ -72,6 +74,11 @@ header a:hover{
     margin-top: 30px;
 }
 
+/* main style  */
+
+/* section:nth-of-type(1) img {
+
+} */
 
 
 /* .styl-cmd{
