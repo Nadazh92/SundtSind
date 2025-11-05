@@ -19,7 +19,7 @@ body{
 header nav {
     background-color: var(--secondarycolor);
     font-family: "corsario-variable", sans-serif; 
-    font-variation-settings: "opsz" 48, "wght" 600;
+    font-variation-settings: "opsz" 48, "wght" 400;
     color:var(--primarycolor);
     font-size: 18pt;
     
@@ -76,7 +76,14 @@ header a:hover{
 
 /* main style  */
 
-section:nth-of-type(1){
+
+.index-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+  
+.persons-content{
     height: 500px;
     width: 700px;
    background-color: var(--secondarycolor);
@@ -84,23 +91,24 @@ section:nth-of-type(1){
    margin-left: 100px;
    border-start-end-radius: 400px;
    border-start-start-radius: 400px;
-   border-end-start-radius: 150px;
+   border-end-start-radius: 140px;
    margin-top: 50px;
    
 }
 
-section:nth-of-type(1) img{
-    height: 600px;
-    width: 800px;
+ .styl-img-persons{
+    height: 400px;
+    width: 600px;
     position:absolute;
-    left: 90px;
+    top: 100px;
+    left: 100px;
     display: flex;
 }
 
 
-section:nth-of-type(1) h2{
+ .styl-heading1{
     font-family: "corsario-variable", sans-serif; 
-    font-variation-settings: "opsz" 48, "wght" 600;
+    font-variation-settings: "opsz" 48, "wght" 400;
     color:var(--primarycolor);
     font-size: 18pt;
     position: absolute;
@@ -110,32 +118,10 @@ section:nth-of-type(1) h2{
     
 }
 
-.styl-kontaktos{
-    background-color: var(--primarycolor);
-    color: var(--secondarycolor);
-    font-family: "corsario-variable", sans-serif; 
-    font-variation-settings: "opsz" 48, "wght" 400;
-    text-decoration: none;
-    font-size: 16pt;
-    border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 80px;
 
 
-}
 
-.index-container{
-    display: flex;
-    justify-content: space-between;
-    
-}
 
-.temaer-container{
-    display: flex;
-    flex-direction: column;
-   
-}
 
 /* .styl-cmd{
     background-color: var(--secondarycolor);
