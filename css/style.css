@@ -79,11 +79,13 @@ header a:hover{
 
 .index-container{
     display: flex;
-    justify-content: space-between;
+   
+   
     
 }
   
 .persons-content{
+    display: flex;
     height: 500px;
     width: 700px;
    background-color: var(--secondarycolor);
@@ -93,7 +95,8 @@ header a:hover{
    border-start-start-radius: 400px;
    border-end-start-radius: 140px;
    margin-top: 50px;
-   
+  
+ 
 }
 
  .styl-img-persons{
@@ -102,7 +105,7 @@ header a:hover{
     position:absolute;
     top: 100px;
     left: 100px;
-    display: flex;
+    /* display: flex; */
 }
 
 
@@ -119,33 +122,70 @@ header a:hover{
 }
 
 
+.index-citat{
+    display: flex;
+    flex-direction: column;
+    
+    position: absolute;
+    left: 900px;
+    top: 350px;
+    right: 100px;
 
+    font-family: "corsario-variable", sans-serif; 
+    font-variation-settings: "opsz" 48, "wght" 400;
+    font-size: 18pt;
+    color: var(--secondarycolor);
+    text-align: center;
+    
+}
 
+.styl-gratis-samtale{
+    font-family: "corsario-variable", sans-serif; 
+    font-variation-settings: "opsz" 48, "wght" 900;
+}
 
-
-/* .styl-cmd{
+.styl-boksam{
     background-color: var(--secondarycolor);
     color: var(--primarycolor);
-    font-size: 18pt;
-    font-family: "corsario-variable", sans-serif; 
-    font-variation-settings: "opsz" 48, "wght" 600;
-    text-align: center;
-    border: 0px;
-    width:120px;
-} */
+    border-radius: 20px;
+     font-family: "corsario-variable", sans-serif; 
+    font-variation-settings: "opsz" 48, "wght" 400;
+    font-size: 16pt;
+    text-decoration: none;
+    height: 50px;
+    width: 300px;
+    padding-top: 10px;
+    margin-left: 100px;
+}
 
+main section a:hover{
+        
+        color:var(--tertiarycolor);
+        font-size: 18pt;
+}
 
-
-
-/* .option-styl{
+.styl-chat{
+    background-color: var(--tertiarycolor);
     color: var(--secondarycolor);
-    background-color: var(--primarycolor);
+     border-radius: 20px;
     font-family: "corsario-variable", sans-serif; 
-    font-variation-settings: "opsz" 48, "wght" 600;
-    font-size: 18pt;
-
+    font-variation-settings: "opsz" 48, "wght" 400;
+    font-size: 16pt;
+    text-decoration: none;
+    height: 50px;
+    width: 250px;
+    padding-top: 10px;
+    margin-left: 350px;
+   
     
-} */
+    position:fixed;
+    bottom: 50px;
+}
+
+
+
+
+
 @media screen and (max-width: 1000px){
     header nav ul {
         display: none;
