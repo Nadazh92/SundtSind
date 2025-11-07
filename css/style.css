@@ -161,12 +161,10 @@ header a:hover{
     margin-left: 10px;
 }
 
-
-
-main section a:hover{
-        
+.styl-boksam:hover{
         color:var(--tertiarycolor);
         font-size: 18pt;
+
 }
 
 
@@ -267,6 +265,15 @@ main section a:hover{
 
 }
 
+.styl-skrivhislink{
+    text-decoration: none;
+    color: var(--secondarycolor);
+    font-family: "corsario-variable", sans-serif; 
+    font-variation-settings: "opsz" 48, "wght" 900;
+
+    
+}
+
 .skriv-btn-container{
 
     display: flex;
@@ -301,20 +308,14 @@ main section a:hover{
 
 }
 
-.first-row{
+.first-col{
     display: flex;
     padding-top: 50px;
     
     
 }
 
-.oplys{
-    /* display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    list-style-type: none;
-    line-height: 30px; */
-}
+
 
 footer ul {
     display: flex;
@@ -336,13 +337,36 @@ footer p {
     color: var(--secondarycolor);
     margin-left: 80px;
     border-radius: 20px;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 100px;
+    width: 400px;
+    
 }
+
+footer p a{
+    background-color: var(--secondarycolor);
+    color: var(--primarycolor);
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-left: 110px;
+    text-decoration: none;
+    
+    
+}
+
+
 
 .fa-facebook-f{
     color: var(--primarycolor);
    font-size: 20pt;
    margin-right: 10px;
+   
 }
 
 .fa-youtube{
@@ -366,15 +390,7 @@ footer p {
 
 }
 
-/* .genvej  {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    list-style-type: none;
-    line-height: 30px;
-    color: var(--primarycolor);
-    
-} */
+
 
 .kontaktinfo{
      display: flex;
@@ -384,14 +400,13 @@ footer p {
 }
 
 
-.second-row{
+.second-col{
     display: flex;
     justify-content: center;
     border-top: 1px solid var(--primarycolor);
     margin-top: 50px;
     padding-top: 50px;
-    padding-bottom: 50px;
-   
+    padding-bottom: 20px;
    
 }
 
@@ -514,6 +529,40 @@ footer p {
     flex-wrap: wrap;
 
 }
+
+.footer-container{
+    flex-wrap: wrap;
+    
+}
+
+
+
+.first-col{
+    flex-wrap: wrap;
+   
+}
+
+.second-col{
+    flex-wrap: wrap;
+}
+
+footer p {
+    
+    margin-left: 40px;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: auto;
+}
+
+footer ul{
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+
+
+
 /* .skriv-btn-container{
     flex-wrap: wrap;
 } */
