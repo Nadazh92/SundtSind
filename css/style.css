@@ -286,6 +286,135 @@ main section a:hover{
     margin-left: 500px;
 
 }
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    color: var(--primarycolor);
+    background-color: var(--secondarycolor);
+    font-family: "corsario-variable", sans-serif; 
+    font-variation-settings: "opsz" 48, "wght" 400;
+    font-family: 12pt;
+
+    margin-top: 50px;
+   
+
+}
+
+.first-row{
+    display: flex;
+    padding-top: 50px;
+    
+    
+}
+
+.oplys{
+    /* display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 30px; */
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;  
+    gap:30px;
+    margin-left: 100px;
+    
+}
+
+footer ul li a {
+    color :var(--primarycolor);
+    text-decoration: none;
+
+}
+
+footer p {
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
+    margin-left: 80px;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+
+.fa-facebook-f{
+    color: var(--primarycolor);
+   font-size: 20pt;
+   margin-right: 10px;
+}
+
+.fa-youtube{
+    color: var(--primarycolor);
+   font-size: 20pt;
+   margin-right: 10px;
+
+}
+
+.fa-instagram{
+   color: var(--primarycolor);
+   font-size: 20pt;
+   margin-right: 10px;
+
+}
+
+.fa-x-twitter{
+    color: var(--primarycolor);
+   font-size: 20pt;
+   margin-right: 10px;
+
+}
+
+/* .genvej  {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 30px;
+    color: var(--primarycolor);
+    
+} */
+
+.kontaktinfo{
+     display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.second-row{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid var(--primarycolor);
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .styl-chat{
     background-color: var(--tertiarycolor);
     color: var(--secondarycolor);
