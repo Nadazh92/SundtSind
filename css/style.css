@@ -236,21 +236,56 @@ main section a:hover{
     color: var(--secondarycolor);
 }
 
-.brev-kasse-container{
+.delhis-container{
     display: flex; 
     border: 3px solid var(--secondarycolor); 
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
+    
 }
 .bk-styl-img{
     display: flex;
-    justify-content: flex-end;
     height: 300px;
     width: 300px;
+    margin-right: 10px;
+
 }
 
+.text-brev-container{
+    display: flex;
+    flex-direction: column;
 
+    font-family: "corsario-variable", sans-serif; 
+    font-variation-settings: "opsz" 48, "wght" 400;
+    font-size: 16pt;
+    line-height: 50px;
+    text-decoration: none;
+    color: var(--secondarycolor);
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.skriv-btn-container{
+
+    display: flex;
+}
+.styl-btn-his{
+    background-color:var(--secondarycolor);
+    color: var(--primarycolor);
+    text-align: center;
+    border-radius: 20px;
+    font-family: "corsario-variable", sans-serif; 
+    font-variation-settings: "opsz" 48, "wght" 400;
+    font-size: 16pt;
+    text-decoration: none;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+
+}
 /* .styl-chat{
     background-color: var(--tertiarycolor);
     color: var(--secondarycolor);
@@ -340,5 +375,18 @@ main section a:hover{
     
    
 }
+
+.delhis-container{
+    flex-wrap: wrap;
+
+}
+
+.text-brev-container{
+    flex-wrap: wrap;
+
+}
+/* .skriv-btn-container{
+    flex-wrap: wrap;
+} */
 
 }
