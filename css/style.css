@@ -169,6 +169,7 @@ header a:hover{
 
 
 
+
 .content-container{
     display: flex;
     margin-top: 50px;
@@ -227,10 +228,22 @@ header a:hover{
 
 }
 
+.fa-readme{
+    padding-right: 40px;
+}
+
+.fa-podcast{
+    padding-right: 40px;
+}
+
+.fa-square-youtube{
+    padding-right: 20px;
+}
+
 
 
 .styl-btn:hover{
-    font-size: 17pt;
+    font-size: 15pt;
     color: var(--secondarycolor);
 }
 
@@ -509,15 +522,25 @@ footer p a{
     margin-bottom: 20px;
 }
 .styl-btn{
-    height: auto;
-    width: auto;
     font-size: 14pt;
     border-radius: 5px;
     text-align: center;
     padding-top: 2px;
     margin-right: 0px;
+    height: 30px;
+    width: 200px;
     
    
+}
+.fa-readme{
+    padding-right: 10px;
+}
+.fa-podcast{
+    padding-right: 10px;
+}
+
+.fa-square-youtube{
+    padding-right: 10px;
 }
 
 .delhis-container{
