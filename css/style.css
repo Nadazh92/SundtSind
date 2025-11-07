@@ -236,7 +236,19 @@ main section a:hover{
     color: var(--secondarycolor);
 }
 
-
+.brev-kasse-container{
+    display: flex; 
+    border: 3px solid var(--secondarycolor); 
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.bk-styl-img{
+    display: flex;
+    justify-content: flex-end;
+    height: 300px;
+    width: 300px;
+}
 
 
 /* .styl-chat{
