@@ -30,6 +30,11 @@ header nav a{
     color: var(--primarycolor);
 }
 
+.fa-bars{
+    color:var(--primarycolor);
+    font-size: 30px;
+    padding-bottom: 20px;
+}
 .logocontainer{
     display: flex;
    
@@ -356,26 +361,32 @@ footer p {
     border-radius: 20px;
     padding-top: 20px;
     padding-left: 10px;
-    height: 100px;
+    height: 200px;
     width: 400px;
+    text-align: center;
     
 }
 
 footer p a{
     background-color: var(--secondarycolor);
     color: var(--primarycolor);
-    /* padding-left: 30px;
-    padding-right: 30px; */
+    
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 20px;
-    margin-left: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    border-radius: 17px;
+    margin-left: 20px;
     text-decoration: none;
     
-    
 }
+
+.fa-envelope{
+    padding-right: 30px;
+}
+
+
 .fa-arrow-right{
     font-size: 12px;
 }
@@ -475,7 +486,29 @@ footer p a{
 
 
 
+
 @media screen and (max-width:768px){
+
+    .show{
+        display: block; 
+        position: relative;
+        top:2px;
+        left:0;
+        background-color: var(--secondarycolor);
+        width: 100%;
+
+    }
+    button#bars{
+        background-color: transparent;
+        border: none;
+        color:var(--primarycolor);
+    }
+
+    .fa-search{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
     header nav ul {
         display: none;
     }
@@ -580,12 +613,8 @@ footer p a{
 }
 
 footer p {
+    display: none;
     
-    margin-left: 40px;
-    padding-top: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-    height: auto;
 }
 
 footer ul{
@@ -600,4 +629,11 @@ footer ul{
     flex-wrap: wrap;
 } */
 
+}
+
+@media screen and (min-width:768px){
+    
+#bars{
+    display: none;
+}
 }
