@@ -197,7 +197,7 @@ header a:hover{
     display: flex;
     flex-direction: column;
     padding-left: 20px;
-    padding-top: 50px;
+    padding-top: 30px;
     
     font-family: "inclusive-sans", sans-serif;
     font-weight: 500;
@@ -342,8 +342,12 @@ footer ul {
 footer ul li a {
     color :var(--primarycolor);
     text-decoration: none;
+   
 
 }
+ footer ul li a:hover{
+    border-bottom: 1px solid var(--primarycolor);
+ }
 
 footer p {
     background-color: var(--primarycolor);
@@ -371,6 +375,9 @@ footer p a{
     text-decoration: none;
     
     
+}
+.fa-arrow-right{
+    font-size: 12px;
 }
 
 
@@ -443,23 +450,26 @@ footer p a{
 
 
 
-/* .styl-chat{
+.styl-chat{
     background-color: var(--tertiarycolor);
     color: var(--secondarycolor);
      border-radius: 20px;
-    font-family: "corsario-variable", sans-serif; 
-    font-variation-settings: "opsz" 48, "wght" 400;
+    font-family: "inclusive-sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 16pt;
+    text-align: center;
     text-decoration: none;
     height: 50px;
     width: 250px;
     padding-top: 10px;
-    margin-left: 350px;
    
-    
+
     position:fixed;
+    left: auto;
+    right:10px;
     bottom: 50px;
-}  */
+} 
 
 
 
