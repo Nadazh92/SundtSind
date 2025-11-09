@@ -443,24 +443,6 @@ footer p a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .styl-chat{
     background-color: var(--tertiarycolor);
     color: var(--secondarycolor);
@@ -481,6 +463,85 @@ footer p a{
     right:10px;
     bottom: 50px;
 } 
+
+/* temaer side  */
+
+
+.temaer-header{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondarycolor);
+    color: var(--primarycolor);
+    font-family: "inclusive-sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16pt;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    height: 300px;
+}
+
+
+.tema-container{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+
+.right-side{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+main .temaer-header h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+ main .temaer-header p{
+    margin-left: 30px;
+    line-height: 50px;
+ }
+
+ main .tema-container ul{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: "inclusive-sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16pt;
+    list-style-type: none;
+ }
+
+ main .tema-container ul a{
+    color: var(--secondarycolor);
+    text-decoration: none;
+ }
+
+ main .tema-container h2{
+    margin-top: 90px;
+ }
+
+ main .tema-container video{
+    margin-left: 200px;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
