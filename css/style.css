@@ -480,23 +480,18 @@ footer p a{
 } */
 
 
-
-
-main .temaer-header h2 {
+.temaer-header h2 {
     margin-left: 20px;
     margin-top: 20px;
 }
- main .temaer-header p{
+.temaer-header p{
     margin-left: 30px;
     line-height: 50px;
  }
 
- main .tema-container ul{
+ .tema-container  aside ul{
     margin-top: 50px;
     margin-left: 30px;
-    font-family: "inclusive-sans", sans-serif;
-    font-weight: 500;
-    font-style: normal;
     font-size: 16pt;
     list-style-type: none;
  }
@@ -506,9 +501,10 @@ main .temaer-header h2 {
     text-decoration: none;
  }
 
- .tema-container ul a:hover{
+ .tema-container  aside ul a:hover{
    border-bottom: 2px solid var(--secondarycolor);
 }
+
 
 
 
@@ -538,37 +534,32 @@ main .temaer-header h2 {
     margin-top: 90px;
 }
 
-.right-side h3{
-    font-size: 18pt;
-    margin-left: 25px;
-    margin-top: 10px;
-    margin-bottom: 20px;
 
-}
 .right-side h4{
-    font-size: 16pt;
-    margin-left: 30px;
-    text-decoration: underline;
+font-size: 16pt;
+margin-left: 110px;
+text-decoration: underline; 
+   
     
 }
 
-.right-side span{
-    font-weight: 800;
-    font-size: 18pt;
+
+
+.right-side b {
     margin-left: 100px;
+    font-size: 20pt;
+    margin-top: 20px;
     
+
 }
 
  .right-side ul li  {
-    margin-left: 50px;
-    font-size: 14pt;
+    font-size: 18pt;
     list-style-type:disc;
-
- }
-.right-side ul{
     margin-left: 100px;
 
-}
+ }
+
 
 .right-side p {
     line-height: 30px;
@@ -745,6 +736,43 @@ footer ul{
     font-size: 10px;
 }
 
+.temaer-header{
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.tema-container{
+    grid-template-columns: 1fr;
+   
+}
+.right-side{
+    flex-wrap: wrap;
+  
+}
+
+.right-side video{
+    height:200px;
+    width: 400px;
+    margin-left: 10px;
+}
+
+.right-side h2 {
+    margin-left: 10px;
+}
+
+.right-side h4{
+    margin-left: 10px;
+}
+.right-side b{
+    margin-left: 10px;
+}
+.right-side p{
+    margin-left: 10px;
+}
+
+.right-side ul li {
+    margin-left: 10px;
+}
 
 
 
