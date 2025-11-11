@@ -525,8 +525,8 @@ main .temaer-header h2 {
 .right-side video{
     height: 500px;
     width: 800px;
-    margin-top: 50px;
-    margin-left: 200px;
+    margin-top: 10px;
+    margin-left: 100px;
 
 
 }
@@ -535,26 +535,33 @@ main .temaer-header h2 {
     font-size: 20pt;
     font-weight: 900;
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 90px;
 }
 
 .right-side h3{
     font-size: 18pt;
-    margin-left: 100px;
+    margin-left: 25px;
     margin-top: 10px;
+    margin-bottom: 20px;
 
 }
 .right-side h4{
     font-size: 16pt;
     margin-left: 30px;
+    text-decoration: underline;
     
-
 }
+
+.right-side span{
+    font-weight: 800;
+    font-size: 18pt;
+    margin-left: 100px;
+    
+}
+
  .right-side ul li  {
     margin-left: 50px;
-    margin-top: 2px;
     font-size: 14pt;
-    margin-top: 0px;
     list-style-type:disc;
 
  }
