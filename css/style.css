@@ -475,14 +475,13 @@ footer p a{
 
 
 
-/* .dep-flex-container{
-    display: flex;
-} */
 
 
-.temaer-header h2 {
+
+.temaer-header h1 {
     margin-left: 20px;
     margin-top: 20px;
+    font-size: 25pt;
 }
 .temaer-header p{
     margin-left: 30px;
@@ -527,8 +526,8 @@ footer p a{
 
 }
 
-.right-side h2{
-    font-size: 20pt;
+.right-side h1{
+    font-size: 25pt;
     font-weight: 900;
     margin-left: 100px;
     margin-top: 90px;
@@ -543,20 +542,19 @@ text-decoration: underline;
     
 }
 
-
-
-.right-side b {
-    margin-left: 100px;
+.right-side h2 strong {
+    margin-left: 110px;
     font-size: 20pt;
-    margin-top: 20px;
     
-
+}
+.right-side h2{
+    margin-top: 20px;
 }
 
  .right-side ul li  {
     font-size: 18pt;
     list-style-type:disc;
-    margin-left: 100px;
+    margin-left: 110px;
 
  }
 
@@ -572,23 +570,10 @@ text-decoration: underline;
 }
 
 .linje{
-    border-top: 2px solid rgb(193, 188, 188);
-  
+    border-bottom:  2px solid rgb(193, 188, 188);
+    padding-bottom: 30px;
 }
  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -752,6 +737,7 @@ footer ul{
 }
 .right-side{
     flex-wrap: wrap;
+    
   
 }
 
@@ -761,22 +747,26 @@ footer ul{
     margin-left: 10px;
 }
 
-.right-side h2 {
+.right-side h1 {
     margin-left: 10px;
+    font-size: 20pt;
 }
 
 .right-side h4{
     margin-left: 10px;
 }
-.right-side b{
+.right-side h2 strong{
     margin-left: 10px;
+    font-size: 18pt;
 }
 .right-side p{
     margin-left: 10px;
+    font-size: 16pt;
 }
 
 .right-side ul li {
     margin-left: 10px;
+    font-size: 16pt;
 }
 
 
