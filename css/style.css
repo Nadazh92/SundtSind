@@ -655,12 +655,50 @@ padding-left: 10px;
     padding-bottom: 30px;
 }
  
+ /* kontakt os side  */
 
+ .photo-container{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 50px;
+    
+ }
 
+ .photo-container img{
+    width:300px;
+    height:400px;
+    background-color: var(--secondarycolor);
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+ 
+    
+ }
 
+ .fp{
+    display: flex;
+    flex-direction: column;
+ }
 
+ .photo-container p {
+    margin-top: 10px;
+    text-align: center;
+    color: var(--secondarycolor);
+    font-size: 16pt;
+ }
 
+.sp{
+   display: flex;
+    flex-direction: column; 
+}
+ 
 
+ .tp{
+    display: flex;
+    flex-direction: column; 
+ }
+
+ 
 
 
 
