@@ -570,6 +570,11 @@ text-decoration: underline;
     text-align: justify;
     
 }
+
+.linje{
+    border-top: 2px solid rgb(193, 188, 188);
+  
+}
  
 
 
