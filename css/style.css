@@ -474,10 +474,6 @@ footer p a{
 
 
 
-
-
-
-
 .temaer-header h1 {
     margin-left: 20px;
     margin-top: 20px;
@@ -488,6 +484,19 @@ footer p a{
     line-height: 50px;
  }
 
+ .styl-g{
+    margin-left: 50px;
+    color: #014B53;
+    margin-top: 5px;
+ }
+ .styl-g a{
+    text-decoration: none;
+    color: var(--secondarycolor);
+ }
+
+ .styl-g a:hover{
+    border-bottom: 1px solid var(--secondarycolor);
+ }
  .tema-container  aside ul{
     margin-top: 50px;
     margin-left: 30px;
@@ -499,6 +508,10 @@ footer p a{
     color: var(--secondarycolor);
     text-decoration: none;
  }
+ main .tema-container ul li {
+    color: var(--secondarycolor);
+ }
+
 
  .tema-container  aside ul a:hover{
    border-bottom: 2px solid var(--secondarycolor);
@@ -541,6 +554,74 @@ text-decoration: underline;
    
     
 }
+.ikoner-container{
+    display: flex; 
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+}
+ .col2{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .col3{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .col4{
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ .styl-dato{
+    color: var(--comments);
+    font-size: 9pt;
+    margin-left: auto;
+    margin-right: 45px;
+    
+
+ }
+
+ .ikoner-container a{
+    font-size: 9pt;
+    text-decoration: none;
+    color: var(--secondarycolor);
+ }
+
+ .styl-del{
+    margin-left: 10px;
+ }
+
+.fa-print{
+font-size: 30px;
+margin-right: 10px;
+
+}
+
+.fa-share-nodes{
+font-size: 30px;
+margin-right: 10px;
+
+}
+
+.fa-volume-high{
+font-size: 30px;
+margin-right:10px;
+
+}
+
+.fa-font{
+font-size: 30px;
+padding-left: 10px;
+
+}
+
 
 .right-side h2 strong {
     margin-left: 110px;
@@ -769,8 +850,40 @@ footer ul{
     font-size: 16pt;
 }
 
+.fa-print{
+font-size: 20px;
+padding-left:20px;
 
+}
 
+.fa-share-nodes{
+font-size: 20px;
+padding-left: 15px;
+
+}
+
+.fa-volume-high{
+font-size: 20px;
+padding-left:15px;
+
+}
+
+.fa-font{
+font-size: 20px;
+padding-left: 30px;
+
+}
+
+.ikoner-container{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.ikoner-container a {
+    padding-left: 10px;
+}
+.styl-del{
+    margin-left: 5px;
+ }
 /* .skriv-btn-container{
     flex-wrap: wrap;
 } */
