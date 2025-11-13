@@ -583,8 +583,9 @@ text-decoration: underline;
  .styl-dato{
     color: var(--comments);
     font-size: 9pt;
-    margin-left: auto;
-    margin-right: 60px;
+    /* margin-left: auto;
+    margin-right: 60px; */
+    margin-left: 100px;
     
 
  }
@@ -675,6 +676,15 @@ padding-left: 10px;
  
     
  }
+ .kontakt-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    color: var(--tertiarycolor);
+   
+
+ }
+
 
  .fp{
     display: flex;
@@ -699,8 +709,37 @@ padding-left: 10px;
     flex-direction: column; 
  }
 
- 
+ .form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 2px solid var(--secondarycolor);
+    border-radius: 20px;
+    padding: 50px 70px 70px 70px;
+    gap:5px;
+    
+    
+ }
+.form-container h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
 
+ .styl-txtbox{
+    height: 30px;
+    color: #bdb9b9;
+    background-color: var(--primarycolor);
+    border: 1px solid var(--secondarycolor);
+    border-radius: 10px;
+
+
+}
+ .k-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: var(--secondarycolor);
+ }
 
 
 
