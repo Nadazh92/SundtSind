@@ -52,11 +52,11 @@
 
             <section class="kontakt-container">
             <p><i class="fa-solid fa-phone-volume"></i>Ring 71724432</p>
-            <p><i class="fa-solid fa-comment-sms"></i> SMS på 71724431</p>
+            <p><i class="fa-solid fa-comment-sms"></i> SMS 71724431</p>
             <p><i class="fa-regular fa-comment"></i> Chat tirsdagen 16-19 </p>
-            <p><i class="fa-regular fa-handshake"></i> Personlige samtale</p>
-            <p><i class="fa-solid fa-video"></i> Video samtale</p>
-            <p><i class="fa-solid fa-envelope"></i>Brevkasse</p>
+            <p><a href="#booksam"><i class="fa-regular fa-handshake"></i> Personlige samtale</a></p>
+            <p><a href="#booksam"><i class="fa-solid fa-video"></i> Video samtale</a></p>
+            <p><a href="#brevkasse"><i class="fa-solid fa-envelope"></i>Brevkasse</a></p>
             </section>
 
         </section>
@@ -70,26 +70,28 @@
 
         <section class="k-container">
         <form action="" class="form-container">
-        <h2>Book din samtale </h2>
-        <label for="">Fornavn</label> <input type="text" class="styl-txtbox" placeholder="Insæt dit fornavn">
-        <label for="">Efternavn</label><input type="text" class="styl-txtbox" placeholder="Insæt dit efternavn">
-        <label for="">Email</label><input type="email" class="styl-txtbox" placeholder="Insæt dit email">
-        <label for="">Samtalens type</label><select name="" id="" class="styl-txtbox">
-            <option value="">Personlige Samtale</option>
-            <option value="">Video samtale</option>
+        
+        <h2 id="booksam">Book din samtale </h2>
+        <label for="fornavn">Fornavn</label> <input type="text"  id="fornavn" name="fornavn"  class="styl-txtbox" placeholder=" Insæt fornavn" required>
+        <label for="efternavn">Efternavn</label><input type="text"  id="efternavn" name="efternavn" class="styl-txtbox" placeholder=" Insæt efternavn" required>
+        <label for="email">Email</label><input type="email"  id="email" name="email"  class="styl-txtbox" placeholder=" xyz@gmail.com" required>
+        <label for="samtalenstype">Samtalens type</label><select name="samtalenstype" id="samtalenstype" class="styl-txtbox" required>
+            <option value="ps" selected>Personlige Samtale</option>
+            <option value="vs">Video samtale</option>
         </select>
-        <label for="">Har  du brug for en tolk? Hvilket sprog ?</label><input type="text" class="styl-txtbox" placeholder="Insæt sprog">
-        <label for="">Date</label><input type="date" class="styl-txtbox">
-        <label for="">Din besked til klinikken</label><textarea name="" id="" class="styl-txtbox"></textarea>
-        <button type="submit">Book</button>
+        <label for="tolk">Har  du brug for en tolk? Hvilket sprog?</label><input type="text" id="tolk" name="tolk" class="styl-txtbox" placeholder="Insæt sprog">
+        <label for="dato">Date</label><input type="date" id="dato" name="dato" class="styl-txtbox">
+        <label for="besked">Din besked til klinikken</label><textarea name="besked" id="besked" class="styl-txtarea" rows="10"></textarea>
+        <button type="submit" class="styl-kbtn">Book samtalen</button>
 
         </form>
          <form action="" class="form-container">
-        <h2>Brevkasse </h2>
-        <label for="">Fornavn</label> <input type="text" class="styl-txtbox">
-        <label for="">Email</label><input type="text" class="styl-txtbox"> 
-        <label for="">Emne</label><input type="text" class="styl-txtbox">
-        <label for="">Din besked </label><textarea name="" id="" rows="15" cols="35"></textarea>
+        <h2 id="brevkasse">Brevkasse </h2>
+        <label for="fornavn2">Fornavn</label> <input type="text" id="fornavn2" name="fornavn2" class="styl-txtbox" required>
+        <label for="email2">Email</label><input type="email"   id="email2" name="email2" class="styl-txtbox" required> 
+        <label for="emnet">Emnet</label><input type="text"   id="emnet" name="emnet" class="styl-txtbox" required>
+        <label for="besked2">Din besked </label><textarea name="besked2" id="besked2" rows="22" cols="35" class="styl-txtarea" required ></textarea>
+        <button type="submit" class="styl-kbtn">Send</button>
 
         </form>
         </section>
@@ -141,19 +143,19 @@
                     </ul>
                 
                     <ul>
-                       <li><a href=""><i class="fa-solid fa-arrow-right"></i>Forsiden</a></li>
-                       <li><a href=""><i class="fa-solid fa-arrow-right"></i>Temaer</a></li>
-                       <li><a href=""><i class="fa-solid fa-arrow-right"></i>Inspiration</a></li>
-                       <li><a href=""><i class="fa-solid fa-arrow-right"></i>Hjælp og rådgivning</a></li>
+                       <li><a href="index.html"><i class="fa-solid fa-arrow-right"></i>Forsiden</a></li>
+                       <li><a href="Temaer.html"><i class="fa-solid fa-arrow-right"></i>Temaer</a></li>
+                       <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Inspiration</a></li>
+                       <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Hjælp og rådgivning</a></li>
                     </ul>
 
                     <ul class="kontaktinfo">
-                       <li><a href=""><i class="fa-solid fa-arrow-right"></i>Om os</a></li>
-                       <li><a href=""><i class="fa-solid fa-arrow-right"></i>Kontakt os</a></li>
-                       <li><a href=""><i class="fa-solid fa-arrow-right"></i>Persondatapolitik</a></li>
+                       <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Om os</a></li>
+                       <li><a href="kontaktos.html"><i class="fa-solid fa-arrow-right"></i>Kontakt os</a></li>
+                       <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Persondatapolitik</a></li>
                     </ul>
 
-                    <p>Skriv til vores brevkasse og få svar om dine spørgsmål <br> <br> <br><a href="#"><i class="fa-solid fa-envelope"></i>Brev kasse</a></p>
+                    <p>Skriv til vores brevkasse og få svar om dine spørgsmål <br> <br> <br><a href="kontaktos.html"><i class="fa-solid fa-envelope"></i>Brev kasse</a></p>
                                 
             </div>
 

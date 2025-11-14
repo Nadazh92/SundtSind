@@ -684,7 +684,10 @@ padding-left: 10px;
    
 
  }
-
+.kontakt-container a{
+    text-decoration: none;
+    color: var(--tertiarycolor);
+}
 
  .fp{
     display: flex;
@@ -715,8 +718,9 @@ padding-left: 10px;
     margin-top: 50px;
     border: 2px solid var(--secondarycolor);
     border-radius: 20px;
-    padding: 50px 70px 70px 70px;
+    padding: 50px 100px 50px 100px;
     gap:5px;
+    
     
     
  }
@@ -727,19 +731,66 @@ padding-left: 10px;
 
  .styl-txtbox{
     height: 30px;
-    color: #bdb9b9;
+    color: var(--secondarycolor);
     background-color: var(--primarycolor);
     border: 1px solid var(--secondarycolor);
     border-radius: 10px;
 
 
 }
+.styl-txtarea{
+    color: var(--secondarycolor);
+    background-color: var(--primarycolor);
+    border: 1px solid var(--secondarycolor);
+    border-radius: 10px;
+    
+}
+
+.styl-kbtn{
+    margin-top: 20px;
+    background-color:var(--secondarycolor);
+    color: var(--primarycolor);
+    width:200px;
+    height:50px;
+    border: solid 2px var(--secondarycolor);
+    border-radius: 10px;
+    font-size: 14pt;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.styl-kbtn:hover{
+    color: var(--tertiarycolor);
+}
+
+
  .k-container{
     display: flex;
     justify-content: center;
     gap: 30px;
     color: var(--secondarycolor);
  }
+
+input:user-valid {
+  border: 2px solid green;
+}
+
+input:user-valid + span::before {
+  content: "✓";
+  color: green;
+}
+
+input:user-invalid {
+  border: 2px solid red;
+}
+
+input:user-invalid + span::before {
+  content: "✖";
+  color: red;
+}
+
+
+
 
 
 
