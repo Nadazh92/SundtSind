@@ -79,6 +79,19 @@ header a:hover{
     margin-top: 30px;
 }
 
+.searchsec{
+    background-color: var(--primarycolor);
+    border: 2px solid var(--secondarycolor);
+    color: var(--secondarycolor);
+    font-size: 14pt;
+    border-radius: 20px;
+    width: 700px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 400px;
+ 
+}
+
 /* main style  */
 
 
@@ -1036,6 +1049,17 @@ padding-left: 30px;
    
  
  }
+
+ .searchsec{
+    
+    font-size: 14pt;
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left:50px;
+ 
+}
 }
 
 
