@@ -720,10 +720,9 @@ padding-left: 10px;
     border-radius: 20px;
     padding: 50px 100px 50px 100px;
     gap:5px;
-    
-    
-    
+ 
  }
+
 .form-container h2 {
     text-align: center;
     padding-bottom: 10px;
@@ -1017,7 +1016,29 @@ padding-left: 30px;
     flex-wrap: wrap;
 } */
 
+.kontakt-container{
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 20px;
+ }
+
+ .photo-container{
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+ }
+
+ .k-container{
+    flex-wrap: wrap;
+ }
+.form-container{
+    padding: 50px 50px 50px 50px;
+   
+ 
+ }
 }
+
+
 
 @media screen and (min-width:768px){
     
