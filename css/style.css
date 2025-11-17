@@ -67,7 +67,7 @@ header nav{
     justify-content: space-between;
 }
 
-header a:hover{
+header nav ul a:hover{
     background-color: var(--primarycolor);
     color: var(--secondarycolor);
 }
