@@ -253,8 +253,8 @@ header nav ul  a:hover{
     padding-right: 40px;
 }
 
-.fa-podcast{
-    padding-right: 40px;
+.fa-headphones{
+    padding-right: 30px;
 }
 
 .fa-square-youtube{
@@ -808,6 +808,7 @@ input:user-invalid + span::before {
 
 @media screen and (max-width:768px){
 
+    
 
     header nav ul{
          display: none;
@@ -821,8 +822,7 @@ input:user-invalid + span::before {
     .show{
         display: block; 
         position: absolute;
-        /* top: 49;
-        left:0px; */
+        top: 70px;
         background-color:var(--secondarycolor);
         width: 100%;
 
@@ -838,18 +838,11 @@ input:user-invalid + span::before {
      header nav ul a li:hover{
         background-color: var(--primarycolor);
     }
-
-    .logocontainer img{
-        display: none;
-
-    }
-
-
     
 
+    
     .fa-search{
-        font-size: 20px;
-        margin-top: 15px;
+        display: none;
     }
 
     
@@ -858,6 +851,7 @@ input:user-invalid + span::before {
         height: 300px;
         width: 400px;
         margin-left: 40px;
+        margin-top: 130px;
     }
     
     .styl-img{
