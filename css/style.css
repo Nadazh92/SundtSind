@@ -17,7 +17,7 @@ body{
     font-style: normal;
 }
 
-/* header style */
+/* -------------------header style------------------- */
 
 header nav {
     background-color: var(--secondarycolor);
@@ -92,7 +92,7 @@ header nav ul  a:hover{
  
 }
 
-/* main style  */
+/*------------------------ main style-----------------  */
 
 
 .banner-container{
@@ -460,7 +460,7 @@ footer p a{
 
 
 
-/* temaer side  */
+/* ------------------temaer side ------------------- */
 
 
 .temaer-header{
@@ -817,7 +817,7 @@ input:user-invalid + span::before {
     .hambr-container p{
         display: none;
     }
-    
+
     .show{
         display: block; 
         position: relative;
