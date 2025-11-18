@@ -67,7 +67,7 @@ header nav{
     justify-content: space-between;
 }
 
-header nav ul a:hover{
+header nav ul  a:hover{
     background-color: var(--primarycolor);
     color: var(--secondarycolor);
 }
@@ -193,7 +193,7 @@ header nav ul a:hover{
 .img-container{
     height: 400px ;
     width: 400px;
-    background-color: red;
+    /* background-color: red; */
     
     
 }
@@ -808,12 +808,22 @@ input:user-invalid + span::before {
 
 @media screen and (max-width:768px){
 
+
+    header nav ul{
+         display: none;
+    
+    }
+    
+    .hambr-container p{
+        display: none;
+    }
+    
     .show{
         display: block; 
         position: relative;
         top:2px;
         left:0;
-        background-color: var(--secondarycolor);
+        background-color:var(--secondarycolor);
         width: 100%;
 
     }
@@ -823,14 +833,14 @@ input:user-invalid + span::before {
         color:var(--primarycolor);
     }
 
+    
+
     .fa-search{
         font-size: 20px;
         margin-top: 15px;
     }
 
-    header nav ul {
-        display: none;
-    }
+    
 
     .billede-container{
         height: 300px;
@@ -845,9 +855,8 @@ input:user-invalid + span::before {
         margin-top: 50px;
     }
     .styl-citat{
-    position: absolute;
-    color: var(--primarycolor);
-    left: 100px;
+    
+    left: 75px;
     font-size: 14pt;
     top:50px;
 }
