@@ -67,10 +67,14 @@ header nav{
     justify-content: space-between;
 }
 
-header nav ul  a:hover{
-    background-color: var(--primarycolor);
-    color: var(--secondarycolor);
+
+header nav ul li a:hover{
+    border-bottom: 2px solid var(--tertiarycolor);
 }
+
+
+
+
 
 .hambr-container{
     display: flex;
@@ -835,11 +839,7 @@ input:user-invalid + span::before {
     
     }
 
-     header nav ul a li:hover{
-        background-color: var(--primarycolor);
-    }
     
-
     
     .fa-search{
         display: none;
